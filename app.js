@@ -80,8 +80,8 @@ async function start() {
 
 //9th step to recognize faces in the image
 function loadLabeledImages() {
-    const labels = ['Antonio', 'Nabil', 'Black Widow', 'Captain America', 'Captain Marvel', 'George',
-     'Hawkeye', 'Henrick', 'Jim Rhodes', 'Thor', 'Tony Stark', 'Rigo'];
+    const labels = ['Antonio', 'Black Widow', 'Captain America', 'Captain Marvel', 'George',
+     'Hawkeye', 'Henrick', 'Jim Rhodes', 'Nabil', 'Rigo', 'Thor', 'Tony Stark'];
 
      return Promise.all(
          labels.map(async label => {
